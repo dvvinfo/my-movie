@@ -24,7 +24,7 @@ defineProps<{
 }>()
 
 defineEmits<{
-  (e: 'on-tab-change', tab: string): void
+   'on-tab-change': [tab: string]
 }>()
 </script>
 
