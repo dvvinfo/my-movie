@@ -49,7 +49,8 @@ const range = computed(() => {
     (props.currentVideoPosition / props.videoDuration) *
     100
   ).toFixed(2)
-  return `${percent} % 100%`
+
+  return `${percent}% 100%`
 })
 </script>
 
